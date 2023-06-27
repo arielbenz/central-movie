@@ -6,6 +6,8 @@ export function useMovies({ search, sort }) {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(null);
 
+  const ff = 234;
+
   // Save the reference of search that doesn't change on the render
   const previousSearch = useRef(search);
 
